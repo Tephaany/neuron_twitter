@@ -1,8 +1,9 @@
-# Twitter 
+# intelora-Twitter 
+A Neuron that allows the user to send a tweet on their respective timeline
 
 ## Synopsis
 
-This neuron allows you to send a tweet on your timeline.
+Make Intelora send a tweet on your timeline.
 
 ## Installation
 ```
@@ -24,6 +25,9 @@ intelora install --git-url https://github.com/intelora/neuron_twitter.git
 | Name  | Description                     | Type   | sample          |
 |-------|---------------------------------|--------|-----------------|
 | tweet | The tweet which has been posted | string | coucou kalliopé |
+
+## Limitation
+In order to be able to post on Twitter, you need to grant access of your application on Twitter by creating your own app associate to your profile.
 
 ## Synapses example
 
